@@ -1,0 +1,51 @@
+# 忽略编译输出文件
+*.obj
+*.o
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# 忽略编译目录
+/build/
+/bin/
+/lib/
+/dist/
+
+# 忽略临时文件
+*.tmp
+*.log
+*.swp
+*.bak
+*.swo
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Python 虚拟环境
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略 Node.js 依赖
+node_modules/
+
+# 忽略 QtCreator 项目文件
+*.user
+*.pro.user
+*.qbs.user
+*.pro.user.*
+
+# 忽略其他配置文件
+*.ini
+*.cfg
+*.conf
