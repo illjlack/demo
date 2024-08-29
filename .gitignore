@@ -7,6 +7,9 @@
 *.so
 *.dylib
 
+# 忽略三方库目录
+*/third_party/
+
 # 忽略编译目录
 /build/
 /bin/
