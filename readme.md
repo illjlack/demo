@@ -8,6 +8,11 @@
 ### 4.调度算法
     /调度算法
         /lru.cpp 最近最少使用
+### 5.同步I/O复用
+    /IO复用
+        /select
+        /poll
+        /epoll
 
 
  
