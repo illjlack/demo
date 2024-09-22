@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <cstdlib>
 
 struct rec1 {
     char   *a;
@@ -72,7 +73,7 @@ Offset of e: 24, Size: 4, Padding: 0
 Offset of h: 28, Size: 4, Padding: 0
 Offset of b: 32, Size: 2, Padding: 0
 Offset of d: 34, Size: 1, Padding: 0
-Offset of f: 35, Size: 1, Padding: 0
+Offset of f: 35, Size: 1, Padding: 4
 */
 
 struct __attribute__((aligned(4))) rec4 {
@@ -168,5 +169,7 @@ int main() {
     printOffsetsAndSizes<rec16>();
     std::cout << "=================================" << std::endl;
 
+    
+    malloc(10);
     return 0;
 }
